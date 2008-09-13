@@ -1,3 +1,16 @@
+"""
+
+WSGI Middleware and Standalone server for serving static contents
+========================================================================
+
+This module provides a way to serving static contents in your WSGI_ applications. it also include a standalone web server application, so that you can easily expose static files via HTTP for test/development purpose (**Disclaimer**: This module may be inefficient and insecure. Do not use this in a production setting. Use this only for test/development).
+
+    :copyright: 2008 by Takanori Ishikawa <takanori.ishikawa@gmail.com>
+    :license: MIT (See ``LICENSE`` file for more details)
+
+.. _WSGI: http://www.python.org/dev/peps/pep-0333/
+
+"""
 import os
 import sys
 import re
