@@ -1,0 +1,25 @@
+h2. wsgi_static
+
+h3. WSGI Middleware and Standalone server for serving static contents
+
+This module provides a way to serving static contents in your "WSGI":http://www.python.org/dev/peps/pep-0333/ applications. it also include a standalone web server application, so that you can easily expose static files via HTTP for test/development purpose (**Disclaimer**: This module may be inefficient and insecure. Do not use this in a production setting. Use this only for test/development).
+
+
+h3. Requirement
+
+You need no third-party library other than **Python 2.5** or higher.
+
+
+h3. Similar Projects
+
+* "static":http://pypi.python.org/pypi/static/0.3.5 by Luke Arno
+
+
+h3. Copyright
+
+Copyright (c) 2008 **Takanori Ishikawa** "&lt;takanori.ishikawa&#64;gmail.com&gt;":mailto:takanori.ishikawa@gmail.com, All rights reserved.
+
+
+h3. License
+
+The MIT license. See the "@LICENSE@":http://github.com/ishikawa/wsgi_static/tree/master/LICENSE file for more details.
