@@ -132,7 +132,7 @@ class FileSystemMiddleware(object):
         return h.items()
 
     def report_error(self, status, start_response):
-        headers = self.make_headers([("Content-Type", "text/plain")])
+        headers = self.make_headers([("Content-Type", "text/html")])
         start_response(status, headers)
         return ["<html><head><title>%s</title></head>"\
                 "<body><h1>%s</h1></body></html>" % (status, status)]
